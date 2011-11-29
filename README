@@ -1,0 +1,28 @@
+#README - RefWorks to Millennium
+
+---
+
+This tool was developed by Matthew Reidsma in javascript/jQuery to add an export to RefWorks button at the end of the Title element in Millennium. It only adds the button to the 245 Title, not the Uniform or Alternate titles. It's easy to install and works in all browsers. It requires the Millennium ILS and the Encore discovery platform.
+
+INSTALLATION
+
+Upload the included javascript file and jQuery to Millennium's Web Master and include the following two lines in your botlogo.html file.
+
+<script src="/PATH/TO/jquery.js"></script>
+<script src="/PATH/TO/refworks2millennium.js"></script>
+
+More questions? Feel free to contact Matthew Reidsma on Twitter at @mreidsma or via email at reidsmam@gvsu.edu.
+
+DEMO
+
+You can view a live version of this tool on the GVSU library catalog: http://library.catalog.gvsu.edu
+
+COPYRIGHT
+
+This tool is copyright 2011 Grand Valley State University Libraries. 
+
+This tool is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This tool is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this tool. If not, see <http://www.gnu.org/licenses/>.

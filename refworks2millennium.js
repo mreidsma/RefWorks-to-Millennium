@@ -10,9 +10,9 @@ $(document).ready(function() {
 	
 	// Don't edit below this line unless you know what you're doing.
 
-	var biblink = jQuery("#recordnum").attr("href"); // 
-	biblink = biblink.split("=");
-	var bibrecordno = biblink[1];
+	var biblink = jQuery("#recordnum").attr("href"); // Grab the permalink
+	biblink = biblink.split("="); 
+	var bibrecordno = biblink[1]; // Pull out the record number from the URL
 	var text = 'Title';
 
 	jQuery('table#bibDisplayLayout table td.bibInfoLabel').filter(function() {
